@@ -1,12 +1,1 @@
-#!/bin/bash
-echo "Vvidite ssilku na repozitoriy"
-read link
-echo "Input: $link"
-mkdir repo
-cd repo
-git clone $link
-mkdir ~/repo_clone
-mv * ~/repo_clone/
-rmdir ~/repo
-chmod -R 500 ~/repo_clone/
-echo "Laba 1 completed"
+zxcursed
